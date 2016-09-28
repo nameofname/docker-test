@@ -15,3 +15,6 @@ cd ~/projects
 git clone git@github.com:nameofname/dot-files.git
 cd ~/projects/dot-files/
 ./setup.sh 
+
+echo "install complete, run the following to get enhanced bash profile"
+echo "source ~/.bash_profile"
