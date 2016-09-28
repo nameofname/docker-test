@@ -6,6 +6,7 @@ RUN apt-get -y install curl
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash
 RUN apt-get -y install nodejs
 RUN apt-get -y install git
+RUN apt-get -y install vim 
 
 RUN useradd -m ronald && echo "ronald:dev" | chpasswd && adduser ronald sudo
 USER ronald
